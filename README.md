@@ -8,7 +8,7 @@ Contains AngularJS 1.6.3 and Angular Route 1.6.3 and has two generic controllers
 
 Contains Bootstrap CSS.
 
-NPM scripts for start and test. `npm test` runs modemon.
+NPM scripts for start and test. `npm test` runs nodemon.
 
 
 ## How To Use
