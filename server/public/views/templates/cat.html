@@ -1,0 +1,13 @@
+<h1>Cat View</h1>
+
+<p>{{cc.message}}</p>
+
+<button ng-click="cc.getRandomPet()">Get Random Pet</button>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>{{cc.pet.name.$t}}</h2>
+    <p>{{cc.pet.description.$t}}</p>
+    <img ng-src='{{hc.pet.media.photos.photo["3"].$t}}'>
+  </div>
+</div>

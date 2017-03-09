@@ -8,10 +8,15 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'HomeController',
             controllerAs: 'hc'
         })
-        .when('/other', {
-            templateUrl: '/views/templates/other.html',
-            controller: 'OtherController',
-            controllerAs: 'oc'
+        .when('/cat', {
+            templateUrl: '/views/templates/cat.html',
+            controller: 'CatController',
+            controllerAs: 'cc'
+        })
+        .when('/reptile', {
+            templateUrl: '/views/templates/reptile.html',
+            controller: 'ReptileController',
+            controllerAs: 'rc'
         })
         .otherwise({
             redirectTo: 'home'
